@@ -11,16 +11,17 @@ public class DiceRunner{
 			b++;
 			one.roll();
 			two.roll();
-			System.out.println( one );
-			System.out.println( two );
+			System.out.println( "Die 1: "+ one );
+			System.out.println( "Die 2: "+ two );
 			if (one.getValue()==1 && two.getValue()==1)
 			c++;
 		}
 
 		System.out.println("You rolled the die "+b+" times before you rolled snake eyes");
 
+		Die a = new Die();
 		for(int i=0; i<6; i++){
-			Die a = new Die();
+			a.roll();
 			tester.addDie(a);
 			System.out.println( tester );
 		}
