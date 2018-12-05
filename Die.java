@@ -13,7 +13,14 @@ public class Die{
 			this.value = value;
 		}
 
-		//(int)(Math.random()*side)
+		public int getValue(){
+			return value;
+		}
+
+		public void roll(){
+			this.value = (int)(Math.random()*side);
+		}
+
 
 
 
