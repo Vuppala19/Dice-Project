@@ -21,6 +21,9 @@ public class Die{
 			this.value = (int)(Math.random()*side);
 		}
 
+		public String toString(){
+			return ("Number of sides: " + side + " & " + "Value: " + value);
+		}
 
 
 
