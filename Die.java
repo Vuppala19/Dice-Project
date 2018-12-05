@@ -18,7 +18,7 @@ public class Die{
 		}
 
 		public void roll(){
-			this.value = (int)(Math.random()*side);
+			this.value = (int)(Math.random()*side+1);
 		}
 
 		public String toString(){
