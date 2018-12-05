@@ -3,7 +3,7 @@ public class Die{
 	private int value;
 		public Die (){
 			side = 6;
-			value = 0;
+			value = (int)(Math.random()*side+1);
 		}
 		public Die(int side, int value){
 			this.side = side;
