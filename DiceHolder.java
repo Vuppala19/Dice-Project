@@ -33,6 +33,8 @@ public class DiceHolder{
 			return holder.get(i)+"/n";
 		}
 
+		return " ";
+
 	}
 
 }
