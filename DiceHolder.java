@@ -29,11 +29,12 @@ public class DiceHolder{
 
 	public String toString(){
 
+		String z ="";
 		for(int i=0; i<holder.size(); i++){
-			return holder.get(i)+"/n";
+			z += holder.get(i)+"\n";
 		}
 
-		return " ";
+		return z;
 
 	}
 
