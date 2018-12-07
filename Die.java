@@ -12,6 +12,9 @@ public class Die{
 		public int getValue(){
 			return value;
 		}
+		public int getSide(){
+			return side;
+		}
 		public void roll(){
 			this.value = (int)(Math.random()*side+1);
 		}
