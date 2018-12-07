@@ -19,19 +19,14 @@ public class DiceRunner{
 
 		System.out.println("You rolled the die "+b+" times before you rolled snake eyes");
 
-		Die a = new Die();
 		for(int i=0; i<6; i++){
-			a.roll();
-			tester.addDie(a);
+			Die f = new Die((int)(Math.random()*15)+4);
+			f.roll();
+			tester.addDie(f);
 			System.out.println( tester );
 		}
-
 		tester.shake();
 		System.out.println();
 		System.out.println( tester );
-
-
-
-
 	}
 }
